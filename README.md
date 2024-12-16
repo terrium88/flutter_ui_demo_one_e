@@ -1,16 +1,17 @@
 # flutter_demo_ui_one
 
-A new Flutter project.
+Practicing design Flutter UI Screens using different widgets
 
-## Getting Started
+## Screens
+<img width="438" alt="image" src="https://github.com/user-attachments/assets/fb34d9cd-c388-41a3-9187-43345fde1db1" />
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<img width="408" alt="image" src="https://github.com/user-attachments/assets/a2249b21-e2f5-4363-876a-1b62261d79fc" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/7f9287e7-2308-40e0-9f36-8007d518dbdd" />
+
+
+
+
+
