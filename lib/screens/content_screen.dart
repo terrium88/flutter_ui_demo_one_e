@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo_ui_one/screens/summary_screen.dart';
 
-class SessionFeedbackScreen extends StatelessWidget {
-  const SessionFeedbackScreen({super.key});
+class ContentScreen extends StatelessWidget {
+  const ContentScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

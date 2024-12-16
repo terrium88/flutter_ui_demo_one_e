@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_ui_one/screens/session_feedback_screen.dart';
+import 'package:flutter_demo_ui_one/screens/content_screen.dart';
 
-class MeditaionScreen extends StatelessWidget {
-  const MeditaionScreen({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -113,7 +113,7 @@ class MeditaionScreen extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (BuildContext context) => SessionFeedbackScreen()),
+              MaterialPageRoute(builder: (BuildContext context) => ContentScreen()),
             );
           },
           elevation: 0,
