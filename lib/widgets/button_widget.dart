@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_ui_one/screens/summary_screen.dart';
+import 'package:flutter_demo_ui_one/routers/router_name.dart';
+import 'package:go_router/go_router.dart';
 
 class SimpleButton extends StatelessWidget {
   final IconData iconData;
@@ -16,12 +17,7 @@ class SimpleButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => SummaryScreen(),
-        ),
-      ),
+      onTap: () => context.go(RouterName.details),
       child: Container(
         padding: EdgeInsets.all(16),
         decoration: BoxDecoration(
