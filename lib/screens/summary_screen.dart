@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class SummaryScreen extends StatelessWidget {
   const SummaryScreen({super.key});
@@ -85,7 +86,7 @@ class SummaryScreen extends StatelessWidget {
         width: 80,
         child: FloatingActionButton(
           onPressed: () {
-            Navigator.pop(context);
+            context.go('/content');
           },
           elevation: 0,
           backgroundColor: Color(0xff583823),
@@ -101,11 +102,11 @@ class SummaryScreen extends StatelessWidget {
 }
 
 class Statistic extends StatelessWidget {
+  const Statistic({super.key, required this.iconData, required this.title, required this.desc});
+
+  final String desc;
   final IconData iconData;
   final String title;
-  final String desc;
-
-  const Statistic({super.key, required this.iconData, required this.title, required this.desc});
 
   @override
   Widget build(BuildContext context) {

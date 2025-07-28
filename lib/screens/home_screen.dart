@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_ui_one/screens/content_screen.dart';
+import 'package:flutter_demo_ui_one/routers/router_name.dart';
+import 'package:go_router/go_router.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -111,10 +112,7 @@ class HomeScreen extends StatelessWidget {
         width: 80,
         child: FloatingActionButton(
           onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (BuildContext context) => ContentScreen()),
-            );
+            context.go(RouterName.content);
           },
           elevation: 0,
           backgroundColor: Color(0xff583823),
