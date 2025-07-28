@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_demo_ui_one/routers/router_name.dart';
 import 'package:go_router/go_router.dart';
 
 class SummaryScreen extends StatelessWidget {
@@ -86,7 +87,7 @@ class SummaryScreen extends StatelessWidget {
         width: 80,
         child: FloatingActionButton(
           onPressed: () {
-            context.go('/content');
+            context.go(RouterName.content);
           },
           elevation: 0,
           backgroundColor: Color(0xff583823),
