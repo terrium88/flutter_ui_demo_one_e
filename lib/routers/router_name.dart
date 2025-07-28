@@ -1,4 +1,4 @@
 abstract final class RouterName {
-  static final String details = '/details';
-  static final String content = '/content';
+  static const String details = '/details';
+  static const String content = '/content';
 }
